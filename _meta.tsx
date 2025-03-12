@@ -4,8 +4,8 @@ export default {
   verifications: "Verifications",
   "verifiable-credentials": "Verifiable Credentials",
   "applying-to-opportunities": "Applying to Funding Opportunities",
-  "pitch-relay":{
+  "pitch-relay": {
     title: "Pitch Relay",
-    display: "hidden"
-  }
-} satisfies MetaRecord;
+    display: "hidden",
+  },
+} satisfies MetaRecord

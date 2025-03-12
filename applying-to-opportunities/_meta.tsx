@@ -4,4 +4,4 @@ export default {
   scope: "Types of opportunities",
   description: "About the opportunity profiles",
   applying: "Applying with OnePass",
-} satisfies MetaRecord;
+} satisfies MetaRecord
