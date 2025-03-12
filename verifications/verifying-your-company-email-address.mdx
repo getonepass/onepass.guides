@@ -14,6 +14,10 @@ theme:
   sidebar: true
 ---
 
+import { faBadgeCheck } from '@fortawesome/pro-solid-svg-icons/faBadgeCheck'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Steps } from 'nextra/components'
+
 # How to Verify Your Company's Contact Email Address
 
 Verifying your company's contact email on OnePass ensures that your organization can be reached through an authenticated and trusted email address. This enhances credibility and trust with investors and partners.
@@ -27,6 +31,8 @@ Verifying your company's contact email on OnePass ensures that your organization
 ## Verification Steps
 
 Follow these steps to verify your company's contact email:
+
+<Steps>
 
 ### Initiate Email Verification
 
@@ -43,7 +49,8 @@ Follow these steps to verify your company's contact email:
 ### Verification Completion
 
 - After clicking the link, you will be redirected to OnePass, and your email will be marked as **verified**.
-- Your company profile will now display a **🟢 Verified Contact Email Badge**.
+- Your company profile will now display a <FontAwesomeIcon icon={faBadgeCheck} size="lg" style={{color: "#33f06c",}} /> **Verified Contact Email Badge**.
+</Steps>
 
 ## Troubleshooting & Support
 
