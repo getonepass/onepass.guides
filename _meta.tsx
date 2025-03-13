@@ -4,12 +4,13 @@ export default {
   verifications: "Verifications and Credentials",
   "verifiable-credentials": "Verifiable Credentials",
   "applying-to-opportunities": "Applying to Funding Opportunities",
-  "pitch-relay": {
-    title: "Pitch Relay",
-    display: "hidden",
+  "pitch-relay-startups": {
+    title: "Pitch Relay for Startups",
+  },
+  "pitch-relay-investors": {
+    title: "Pitch Relay for Investors",
   },
   "document-management": {
     title: "Managing and Sharing documents",
-    display: "hidden",
   },
 } satisfies MetaRecord;
