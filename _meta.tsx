@@ -13,4 +13,4 @@ export default {
   "document-management": {
     title: "Managing and Sharing documents",
   },
-} satisfies MetaRecord;
+} satisfies MetaRecord
