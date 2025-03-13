@@ -6,5 +6,10 @@ export default {
   "applying-to-opportunities": "Applying to Funding Opportunities",
   "pitch-relay": {
     title: "Pitch Relay",
+    display: "hidden",
   },
-} satisfies MetaRecord
+  "document-management": {
+    title: "Managing and Sharing documents",
+    display: "hidden",
+  },
+} satisfies MetaRecord;
