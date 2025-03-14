@@ -1,6 +1,9 @@
 import type { MetaRecord } from "nextra"
 export default {
-  "about-onepass": "About OnePass Bridge",
+  "about-onepass": {
+    title: "About OnePass Bridge",
+    display: "hidden",
+  },
   "create-personal-account": "Create a Personal Account",
   "create-workspace": "Create a Workspace",
   "complete-personal-profile": "Complete Your Personal Profile",
